@@ -36,7 +36,7 @@ var honda = {
     started: false,
     fuel: 0,
     start: function() {
-        if (this.fuel <= 0) {
+        if (this.fuel == 0) {
             alert(`The car is on empty, fill up before starting!`);
         } else {
             this.started = true;
