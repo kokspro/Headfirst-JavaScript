@@ -26,9 +26,21 @@
 //     console.log('No way a number equals a string!');
 // }
 
-console.log(Infinity - "1");
-console.log(2 + "1 1");
-console.log(99 + 101);
-console.log("1" - "1");
-console.log('Result: ' + 10/2);
-console.log(3 + ' bananas ' + 2 + ' apples ');
+// console.log(Infinity - "1");
+// console.log(2 + "1 1");
+// console.log(99 + 101);
+// console.log("1" - "1");
+// console.log('Result: ' + 10/2);
+// console.log(3 + ' bananas ' + 2 + ' apples ');
+
+function Duck(sound) {
+    this.sound = sound;
+    this.quack = function () {console.log(this.sound);}
+}
+
+var toy = new Duck("quack quack");
+
+toy.quack();
+
+console.log(typeof toy);
+console.log(toy instanceof Duck);
