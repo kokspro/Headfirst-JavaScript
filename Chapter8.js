@@ -1,3 +1,6 @@
+
+
+
 var view = {
     displayMessage: function(msg) {
         var messageArea = document.getElementById('messageArea');
@@ -158,18 +161,19 @@ function handleKeyPress(e) {
 window.onload = init;
 
 
-// controller.processGuess('B0');
-// controller.processGuess('C0');
-// controller.processGuess('D0');
-// controller.processGuess('C6');
-// controller.processGuess('C4');
-// controller.processGuess('D2');
-// controller.processGuess('D3');
-// controller.processGuess('D4');
-// controller.processGuess('B1');
-// controller.processGuess('B2');
-// controller.processGuess('G3');
-// controller.processGuess('G4');
-// controller.processGuess('G5');
+controller.processGuess('B0');
+controller.processGuess('C0');
+controller.processGuess('D0');
+controller.processGuess('C6');
+controller.processGuess('C4');
+controller.processGuess('D2');
+controller.processGuess('D3');
+controller.processGuess('D4');
+controller.processGuess('B1');
+controller.processGuess('B2');
+controller.processGuess('G3');
+controller.processGuess('G4');
+controller.processGuess('G5');
+
 
 
