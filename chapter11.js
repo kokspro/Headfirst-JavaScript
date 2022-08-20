@@ -137,18 +137,64 @@
 // console.log(numb3(5));
 
 
-function makeCounter() {
-    var count = 0;
+// function makeCounter() {
+//     var count = 0;
 
-    return {
-        increment: function() {
-            count++;
-            return count;
-        }
-    };
-}
+//     return {
+//         increment: function() {
+//             count++;
+//             return count;
+//         }
+//     };
+// }
 
-var doCount = makeCounter();
-console.log(doCount.increment());
-console.log(doCount.increment());
-console.log(doCount.increment());
+// var doCount = makeCounter();
+// console.log(doCount.increment());
+// console.log(doCount.increment());
+// console.log(doCount.increment());
+
+// function handler() {
+//     alert(doneMessage);
+// }
+// function makeTimer(doneMessage, n) {
+//     setTimeout(handler, n);
+// }
+// var doneMessage = 'Cookie are done!';
+// makeTimer(doneMessage, 1000);
+
+// var count = 0;
+
+// window.onload = function() {
+//     var button = document.getElementById('clickme');
+//     button.onclick = handleClick;
+// }
+
+// function handleClick() {
+//     var message = "You clicked me ";
+//     var div = document.getElementById('message');
+//     count++;
+//     div.innerHTML = message + count + " times!";
+// }
+
+// window.onload = function() {
+//     var count = 0;
+//     var message = "You clicked me ";
+//     var div = document.getElementById('message');
+//     var button = document.getElementById('clickme');
+
+//     button.onclick = function() {
+//         count++;
+//         div.innerHTML = message + count + " times!";
+//     }
+// }
+
+(function(food) {
+    if (food === "cookies") {
+        alert('More please');
+    } else if (food === "cake") {
+        alert('Yum yum');
+    }
+}) ('cookies');
+
+
+

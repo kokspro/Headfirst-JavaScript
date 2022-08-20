@@ -64,4 +64,12 @@ img {
 } */
 
 
-/*---------------Chapter 10 CSS-----------------*/
+/*---------------Chapter 11 CSS-----------------*/
+
+body, button {
+    margin: 10px;
+}
+
+div {
+    padding: 10px;
+}
