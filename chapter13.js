@@ -131,23 +131,27 @@
 // rosie.deployLaser();
 // --------------------
 
-String.prototype.palindrome = function() {
-    var len = this.length-1;
-    for (let i = 0; i <= len/2; i++) {
-        if (this.charAt(i) !== this.charAt(len-i)) {
-            return false;
-        }
-    }
-    return true;
-}
+// String.prototype.palindrome = function() {
+//     var len = this.length-1;
+//     for (let i = 0; i <= len/2; i++) {
+//         if (this.charAt(i) !== this.charAt(len-i)) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
-var phrases = ["mom", "trying", "level", "lever", "crying"];
+// var phrases = ["mom", "trying", "level", "lever", "crying"];
 
-for (var i = 0; i < phrases.length; i++) {
-    var phrase = phrases[i];
-    if (phrase.palindrome()) {
-        console.log(`${this.phrase} is a palindrome!`);
-    } else {
-        console.log(`${this.phrase} is NOT a palindrome!`);
-    }
-}
+// for (var i = 0; i < phrases.length; i++) {
+//     var phrase = phrases[i];
+//     if (phrase.palindrome()) {
+//         console.log(`${this.phrase} is a palindrome!`);
+//     } else {
+//         console.log(`${this.phrase} is NOT a palindrome!`);
+//     }
+// }
+
+$(document).ready(function () {
+    alert("JQuery seems really cool");
+});
